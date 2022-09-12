@@ -1,8 +1,8 @@
-name: Mend Unified Agent Scan - NPM
+name: Mend Unified Agent Scan - Feature Policy Check
 
 on:
   push:
-    branches: [ feature* ]
+    branches: [ feature/* ]
     
 jobs:
   build:
