@@ -21,6 +21,7 @@ jobs:
         WS_WSS_URL: https://saas.whitesourcesoftware.com/agent
         WS_PRODUCTNAME: ${{github.event.repository.name}}
         WS_PROJECTNAME: ${{github.event.repository.name}}_${{github.ref_name}}
+        WS_CHECKPOLICIES: TRUE
       run: |
         echo Downloading WhiteSource Unified Agent
         curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
