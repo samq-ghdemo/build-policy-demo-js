@@ -33,3 +33,9 @@ jobs:
           echo Starting WhiteSource Scan
           java -jar wss-unified-agent.jar
         fi
+    - name: 'Upload WhiteSource folder'
+      uses: actions/upload-artifact@v2
+      with:
+        name: WhiteSource
+        path: whitesource
+        retention-days: 1
