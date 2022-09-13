@@ -1,5 +1,7 @@
 # Mend Unified Agent(UA) Policy Check Examples
 
+## [Video Explanation](https://youtu.be/LlK2ZADW0gk)
+
 ## Prerequisites 
 - Use environment variables or a blank config file with only the necessary changes in order to utiliize Mend Unified Agent defaults as shown on the [Getting Starting with Unified Agent documentation](https://docs.mend.io/bundle/unified_agent/page/getting_started_with_the_unified_agent.html#Setting-Up-the-Unified-Agent)
 
